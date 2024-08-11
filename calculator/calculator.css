@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    /* background-image: url(https://img.freepik.com/free-vector/cartoon-math-background_23-2148152446.jpg?w=740&t=st=1682267177~exp=1682267777~hmac=970d2237f57673b7c7d4b0104800a6b57feae6bfd10c1bef4e1f966bd16eede7); */
+    /* background-size: 100%; */
+    margin-top: 150px;
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 10px 20px 20px;
+    background-color: white;
+    
+}
+.display{
+    height: 80px;
+    width: 100%;
+    outline: none;
+    border: none;
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: black;
+}
+body{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://img.freepik.com/free-vector/cartoon-math-background_23-2148152446.jpg?w=740&t=st=1682267177~exp=1682267777~hmac=970d2237f57673b7c7d4b0104800a6b57feae6bfd10c1bef4e1f966bd16eede7);
+    background-size: 100%;
+}
+.buttons{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.buttons button{
+    padding: 12px 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(240, 237, 237);
+}
+.operator{
+     color: rgb(43, 163, 211);
+}
